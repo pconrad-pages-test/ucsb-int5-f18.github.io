@@ -35,19 +35,20 @@ title: "INT 5: Data Science Foundations, Fall 2018"
 {{ item.date | date: "%a %m/%d"  }}
   </td>
     <td markdown="1">
-      {{ item.topic }}
+{{ item.topic }}
   </td>
     <td markdown="1">
-      {% if item.links.demo %}[Demo]({{item.links.demo}}){% endif %}, TODO, LIKEWISE FOR SLIDES/VIDEO 
+{% if item.links.demo %}[Demo]({{item.links.demo}}){% endif %}, TODO, LIKEWISE FOR SLIDES/VIDEO 
   </td>
   <td markdown="1">
-      {% for reading in item.readings %}
-      [{{reading.title}}]({{reading.url}})&nbsp;
-      {% endfor %}
+{% for reading in item.readings %}
+[{{reading.title}}]({{reading.url}})&nbsp;
+{% endfor %}
   </td>
   <td markdown="1">
-      {% for asn in item.assignments %}
-      [{{asn.title}}]({{asn.url}})&nbsp;       {% endfor %}
+{% for asn in item.assignments %}
+[{{asn.title}}]({{asn.url}})&nbsp;       
+{% endfor %}
   </td>
 </tr>
 {% endfor %}
