@@ -40,14 +40,10 @@ title: "INT 5: Data Science Foundations, Fall 2018"
 {% if item.links.video %}[Video]({{item.links.video}}){% endif %}  
 </td>
 <td markdown="1">
-{% for reading in item.readings %}
-[{{reading.title}}]({{reading.url}})&nbsp;
-{% endfor %}
+{% for reading in item.readings %}[{{reading.title}}]({{reading.url}})&nbsp;{% endfor %}
 </td>
 <td markdown="1">
-{% for asn in item.assignments %}
-[{{asn.title}}]({{asn.url}})&nbsp; 
-{% endfor %}
+{% for asn in item.assignments %}[{{asn.title}}]({{asn.url}})&nbsp;{% endfor %}
 </td>
 </tr>
 {% endfor %}
