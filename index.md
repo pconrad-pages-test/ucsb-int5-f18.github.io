@@ -32,7 +32,7 @@ title: "INT 5: Data Science Foundations, Fall 2018"
 {% for item in site.lectures %}
 <tr>
   <td markdown="1">
-     {{ item.date | date: "%a %m/%d"  }}
+{{ item.date | date: "%a %m/%d"  }}
   </td>
     <td markdown="1">
       {{ item.topic }}
