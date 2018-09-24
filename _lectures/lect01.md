@@ -16,7 +16,7 @@ readings:
      title: "1.2"
      url: "https://www.inferentialthinking.com/chapters/01/2/why-data-science.html"   
 
-assignments: ""
+assignments:
    - 
      title: "Lab 01: Expressions"
      url: "tbd"
