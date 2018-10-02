@@ -3,7 +3,8 @@ title: "INT 5: Data Science Foundations, Fall 2018"
 ---
 
 <div class="container">
-<section id="content">
+<!--<section id="content">-->
+<!--
 <div id="info">
 <h2>Course Information</h2>
 <ul>
@@ -12,9 +13,11 @@ title: "INT 5: Data Science Foundations, Fall 2018"
 {% endfor %}
 </ul>
 </div>
+-->
 
 <div id="info">
-<h2>Lectures</h2>
+<!--<h2>Lectures</h2>-->
+<h2>Schedule</h2>
 
 <div class="calendar">
 <table class="table table-sm">
@@ -54,5 +57,5 @@ title: "INT 5: Data Science Foundations, Fall 2018"
 </table>
 </div> <!--end calendar -->
 </div>
-</section>
+<!--</section>-->
 </div> <!--end container -->
