@@ -3,6 +3,7 @@ title: "INT 5: Data Science Foundations, Fall 2018"
 ---
 
 <div class="container">
+<section id="content">
 <div id="info">
 <h2>Course Information</h2>
 <ul>
@@ -42,10 +43,10 @@ title: "INT 5: Data Science Foundations, Fall 2018"
 {% if item.links.video %}[Video]({{item.links.video}}){% endif %}  
 </td>
 <td markdown="1">
-{% for reading in item.readings %}[{{reading.title}}]({{reading.url}})&nbsp;{% endfor %}
+{% for reading in item.readings %}[{{reading.title}}]({{reading.url}})<br/>{% endfor %}
 </td>
 <td markdown="1">
-{% for asn in item.assignments %}[{{asn.title}}]({{asn.url}})&nbsp;{% endfor %}
+{% for asn in item.assignments %}[{{asn.title}}]({{asn.url}})<br/>{% endfor %}
 </td>
 </tr>
 {% endfor %}
@@ -53,4 +54,5 @@ title: "INT 5: Data Science Foundations, Fall 2018"
 </table>
 </div> <!--end calendar -->
 </div>
+</section>
 </div> <!--end container -->
