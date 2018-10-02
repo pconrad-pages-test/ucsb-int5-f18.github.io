@@ -2,6 +2,7 @@
 title: "INT 5: Data Science Foundations, Fall 2018"
 ---
 
+<div class="container">
 <div id="info">
 <h2>Course Information</h2>
 <ul>
@@ -14,6 +15,7 @@ title: "INT 5: Data Science Foundations, Fall 2018"
 <div id="info">
 <h2>Lectures</h2>
 
+<div class="calendar">
 <table class="table table-sm">
 <thead>
 <tr>
@@ -49,4 +51,6 @@ title: "INT 5: Data Science Foundations, Fall 2018"
 {% endfor %}
 </tbody>
 </table>
+</div> <!--end calendar -->
 </div>
+</div> <!--end container -->
