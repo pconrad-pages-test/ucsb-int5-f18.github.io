@@ -2,7 +2,7 @@
 title: "INT 5: Data Science Foundations, Fall 2018"
 ---
 
-<div class="container">
+<!--<div class="container">-->
 <!--<section id="content">-->
 <!--
 <div id="info">
@@ -58,4 +58,4 @@ title: "INT 5: Data Science Foundations, Fall 2018"
 </div> <!--end calendar -->
 </div>
 <!--</section>-->
-</div> <!--end container -->
+<!--</div>--> <!--end container -->
